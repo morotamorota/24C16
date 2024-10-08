@@ -25,7 +25,7 @@ db.connect((err) => {
   console.log('データベースに接続しました');
 });
 
-/*
+
 // 日報データの挿入エンドポイント
 app.post('/submit-report', (req, res) => {
   const { date, projectName, subNumber, division, companyName, workerName, startTime, endTime } = req.body;
@@ -48,7 +48,7 @@ app.post('/submit-report', (req, res) => {
     res.json({ success: true, message: 'データが正常に挿入されました' });
   });
 });
-*/
+
 
 
 
